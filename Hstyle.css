@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    background-color: orange;
+}
+
+title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headeri {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+
+
+ul {
+    width: 30%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+ul li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 3px solid red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.bgfoto {
+    width: 100%;
+    height: 280px;
+    background-image: url(autogarage.png);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butoni_bg {
+    width: 50px;
+    height: 25px;
+    background-color: orange;
+    border: inset 0px;
+}
+
+.artikujt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 85%;
+    height: 50px;
+    justify-content: space-between;
+    color: rgb(34, 255, 244);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
