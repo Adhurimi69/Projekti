@@ -74,7 +74,6 @@ input[type="submit"] {
     height: 2em;
     font-size: 1.1rem;
     background-color: green;
-    border-color: white;
     min-width: 300px;
 }
 
