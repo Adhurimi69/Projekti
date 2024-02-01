@@ -43,3 +43,13 @@ h1 {
 footer {
     color: white;
 }
+
+.about-us-slider {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.about-us-slider img {
+    width: 100%;
+    height: auto;
+}
