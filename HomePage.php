@@ -3,35 +3,38 @@
 
 <head>
     <title>Auto Parts & Car Repair</title>
-    <link rel="stylesheet" href="Hstyle.css">
+    <link rel="stylesheet" href="homepageStyle.css">
 </head>
 
 <body>
     <header>
         <div class="headeri">
-            <img src="logo.jpg" height="45px">
+            <img src="img/logo.png" height="55px">
             <div class="name">
                 <p>Auto Parts & Car Repair</p>
             </div>
         </div>
         <ul>
-            <li><a  style= "color: black;" href="About us.html">About Us</a></li>
-            <li><a style="color: black;" href="Contact us.html">Contact Us</a></li>
-            <li><a style= "color: black;" href="Login Form.html">Log In</a></li>
+            <li><a style="text-decoration:none; color: black;" href="AboutUs.php">About Us</a></li>
+            <li><a style="text-decoration:none; color: black;" href="ContactUs.php">Contact Us</a></li>
+            <li><a style="text-decoration:none; color: black;" href="news.php">News</a></li>
+            <li><a style="text-decoration:none; color: black;" href="order.php">Order</a></li>
+            <li><a style="text-decoration:none; color: black;" href="LoginForm.php">Log In</a></li>
+
         </ul>
     </header>
     <main>
-        <div class="bgfoto" id="bgfotoDiv" style="background-image: url(autogarage.png); background-size: 100% 100%;">
+        <div class="bgfoto" id="bgfotoDiv" style="background-image: url(img/autogarage.png); background-size: 100% 100%;">
             <input type="text" placeholder="Search" style="height: 20px;">
-            <button class="butoni_bg"><img src="search.png" alt=""></button>
+            <button class="butoni_bg"><img src="img/search.png" alt=""></button>
         </div>
         <script>
             let i = 0;
-            let bgfotoArray = ['autogarage.png', 'autogarage2.png','pp.png'];
+            let bgfotoArray = ['img/autogarage.png', 'img/autogarage2.png','img/pp.png'];
         
             function changeImg() {
                 let bgfotoDiv = document.getElementById('bgfotoDiv');
-        
+
                 bgfotoDiv.style.backgroundImage = `url(${bgfotoArray[i]})`;
         
                 if (i < bgfotoArray.length - 1) {
@@ -41,7 +44,7 @@
                 }
                 setTimeout(changeImg, 3000);
             }
-        
+
             window.onload = changeImg;
         </script>
         <div class="artikujt">
@@ -49,61 +52,61 @@
         </div>
         <div class="fotografit">
             <div class="rubrika">
-                <img src="wheel.png" alt="" class="img">
+                <img src="img/wheel.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Wheels</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="Tires.png" alt="" class="img">
+                <img src="img/Tires.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Tires</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="engine.png" alt="" class="img">
+                <img src="img/engine.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Engine</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="brakes.png" alt="" class="img">
+                <img src="img/br.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Brakes</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="oil.png" alt="" class="img">
+                <img src="img/oil.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Oil Filter</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="airfilter.png" alt="" class="img">
+                <img src="img/airfilterr.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Air Filter</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="suspension.png" alt="" class="img">
+                <img src="img/suspension.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Suspension</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="lights.png" alt="" class="img">
+                <img src="img/light.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Lights</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="battery.png" alt="" class="img">
+                <img src="img/bateria.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Battery</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="steering.png" alt="" class="img">
+                <img src="img/str.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Steering Wheels</p>
                 </div>
@@ -114,49 +117,49 @@
             </div>
 
             <div class="rubrika">
-                <img src="oilchange.jpg" alt="" class="img">
+                <img src="img/oilchange.jpg" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Oil Service</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="modifications.png" alt="" class="img">
+                <img src="img/modifications.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Engine Modifications</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="batterychange.png" alt="" class="img">
+                <img src="img/batterychange.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Battery Replacement</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="brakeservices.png" alt="" class="img">
+                <img src="img/brakeservices.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Brake Services</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="cmpdiagnostic.png" alt="" class="img">
+                <img src="img/cmpdiagnostic.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Computer Diagnostics</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="aircondition.png" alt="" class="img">
+                <img src="img/aircondition.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Air Conditioning Service</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="bodyrepair.png" alt="" class="img">
+                <img src="img/bodyrepair.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Painting and Body Repair</p>
                 </div>
             </div>
             <div class="rubrika">
-                <img src="tirechange.png" alt="" class="img">
+                <img src="img/tirechange.png" alt="" class="img">
                 <div class="pershkrimi">
                     <p>Tire Change</p>
                 </div>
@@ -168,11 +171,11 @@
             <h2>Info</h2>
             <h2>Our Brand Cars</h2>
             <div class="bb">
-                <a href=""><img src="audilogo.png" alt="audilogo"></a>
-                <a href=""><img src="bmwlogo.png" alt="bmwlogo"></a>
-                <a href=""><img src="mercedes-logo.png" alt="mercedes-logo"></a>
-                <a href=""><img src="porsche-logo.png" alt="porsche-logo"></a>
-                <a href=""><img src="bentley.png" alt="bentley"></a>
+                <a href=""><img src="img/audilogo.png" alt="audilogo"></a>
+                <a href=""><img src="img/bmwlogo.png" alt="bmwlogo"></a>
+                <a href=""><img src="img/mercedes-logo.png" alt="mercedes-logo"></a>
+                <a href=""><img src="img/porsche-logo.png" alt="porsche-logo"></a>
+                <a href=""><img src="img/bentley.png" alt="bentley"></a>
             </div>
         </div>
         <div class="footermain">
@@ -198,8 +201,4 @@
         </div>
     </footer>
 </body>
-
-    <script>
-
-    </script>
 </html>

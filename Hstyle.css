@@ -1,12 +1,17 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
+    margin: 0;
     background-color: orange;
 }
 
 title {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 .headeri {
@@ -42,9 +47,7 @@ main {
 
 .bgfoto {
     width: 100%;
-    height: 280px;
-    background-image: url(autogarage.png);
-    background-size: 100% 100%;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,15 +105,6 @@ main {
     display: flex;
     justify-content: space-between;
     color: lightgrey;
-}
-
-.permifooter{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    height: 50px;
 }
 
 .numrat{
