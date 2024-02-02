@@ -8,8 +8,9 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #011530;
+            background-color: black;
         }
+        
 
         .container {
             width: 100%;
@@ -17,7 +18,7 @@
             margin: 0 auto;
             padding: 20px;
             box-sizing: border-box;
-            background-color: #ffffff;
+            background-color: white;
             border-radius: 10px;
         }
 
@@ -33,7 +34,7 @@
         }
 
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: orange;
             color: white;
             padding: 14px 20px;
             margin: 8px 0;
@@ -43,7 +44,7 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: orange;
         }
     </style>
 </head>

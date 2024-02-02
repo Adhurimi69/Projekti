@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #1b1b32;
+            background-color: black;
         }
 
         .container {
@@ -30,8 +30,8 @@
         }
 
         button {
-            background-color: #4CAF50;
-            color: white;
+            background-color: orange;
+            color: black;
             padding: 14px 20px;
             margin: 8px 0;
             border: none;
@@ -44,15 +44,14 @@
         }
 
         a {
-            color: #000;
+            color: black;
             text-decoration: none;
         }
 
         a:hover {
-            color: #4CAF50;
+            color: orange;
         }
     </style>
-
 </head>
 
 <body>
@@ -64,7 +63,7 @@
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" id="psw" name="psw" required>
 
-            <a href="Registration form.html">Don't have an account? Sign up
+            <a href="RegistrationForm.php">Don't have an account? Sign up
                 here.</a>
 
             <button type="submit">Login</button>

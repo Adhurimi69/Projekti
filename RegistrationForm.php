@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="Rstyle.css" />
+    <link rel="stylesheet" href="rstyle.css" />
 </head>
 
 <body>
@@ -26,27 +26,6 @@
             </label>            
     </fieldset>
 
-    <fieldset>
-        <legend>Account type (required)</legend>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline"
-                checked /> Personal</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" />
-            Business</label>
-    </fieldset>
-
-    <fieldset>
-        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file"
-                name="file" /></label>
-        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
-        <label for="referrer">How did you hear about us?
-            <select id="referrer" name="referrer">
-                <option value="">(select one)</option>
-                <option value="1">Family and friends</option>
-                <option value="2">Social Media</option>
-                <option value="3">Other</option>
-            </select>
-        </label>
-    </fieldset>
     <label for="terms-and-conditions">
         <input class="inline" id="terms-and-conditions" type="checkbox" name="terms-and-conditions" /> I
         accept the <a href="https://www.partsgeek.com/terms-and-conditions.html">terms and conditions</a>

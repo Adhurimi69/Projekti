@@ -3,7 +3,7 @@
 
 <head>
     <title>About Us - Auto Repair</title>
-    <link rel="stylesheet" href="Astyle.css">
+    <link rel="stylesheet" href="aboutstyle.css">
 </head>
 
 <body>
