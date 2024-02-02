@@ -3,7 +3,7 @@
 
 <head>
     <title>Auto Parts & Car Repair</title>
-    <link rel="stylesheet" href="homepageStyle.css">
+    <link rel="stylesheet" href="Hstyle.css">
 </head>
 
 <body>

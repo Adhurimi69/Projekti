@@ -1,0 +1,44 @@
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.article {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    margin: 0 auto;
+
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
