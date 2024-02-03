@@ -12,14 +12,18 @@
     margin-bottom: 20px;
     margin-right: 20px;
     padding: 20px;
-    width: calc(33.333% - 20px);
+    width: 350px;
     margin: 0 auto;
-
+    
 }
 
 .article img {
-    max-width: 100%;
-    height: auto;
+    max-width: 90%;
+    height: 250px;
+}
+
+label{
+    display: block;
 }
 
 .article button {
@@ -37,6 +41,7 @@
 
 .header {
     text-align: center;
+    color: orange;
 }
 
 .h1 {
