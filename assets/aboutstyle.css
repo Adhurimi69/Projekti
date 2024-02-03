@@ -1,0 +1,45 @@
+.box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #181111;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+
+.about-us {
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bordered-main {
+    border: 2px solid black;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: black;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    color: white;
+}

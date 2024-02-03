@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="rstyle.css" />
+    <link rel="stylesheet" href="assets/Rstyle.css"/>
 </head>
 
 <body>

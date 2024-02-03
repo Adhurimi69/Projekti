@@ -1,0 +1,199 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: orange;
+}
+
+title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.headeri {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 10px;
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+ul li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.bgfoto {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butoni_bg {
+    width: 50px;
+    height: 25px;
+    background-color: orange;
+    border: inset 0px;
+}
+
+.artikujt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 85%;
+    height: 50px;
+    justify-content: space-between;
+    color: rgb(34, 255, 244);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotografit{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.rubrika{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+}
+
+.img{
+    width: 100%;
+    height: 75%;
+    background-size: 100% 100%;
+}
+
+.pershkrimi{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: lightgrey;
+}
+
+.numrat{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.btn{
+    height: 30px;
+    width: 30px;
+    border: inset 0px;
+}
+
+.btn_prev_next{
+    height: 30px;
+    border: inset 0px;
+}
+
+footer{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: darkgray;
+    font-size: 15px;
+}
+
+.b{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 70%;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.bb{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.bb img{
+    width: 32px;
+    height: 32px;
+}
+
+.footermain{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.footerleft{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+}
+
+.footerright{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    align-items: flex-end;
+    color: black;
+}
+
+.footercenter{
+    align-items: flex-start;
+    color: black;
+    font-size: bold;
+}
+
+.fotofooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fundi{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    color: black;
+}
