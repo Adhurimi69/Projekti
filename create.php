@@ -64,31 +64,15 @@ if (!isset($_SESSION['session_token']) || !isset($_SESSION['user_email'])) {
 
 <body>
     <div class="container">
-        <?php 
-            require_once '../../models/article.php';
-
-
-            $id = $_GET['id'];
-            
-            $articleModel = new Article();
-
-            $article = $articleModel->getArticle($id);
-
-            if($article){?>
-                 <form name="createForm" method="post" action="../../actions/edit_action.php" enctype="multipart/form-data">
-                    <input type="text" name="id"  value="<?php echo $article['id']?>" style="display:none;"> <br> <br>
-                    <label for="title"><b>Title</b></label>
-                    <input type="text" placeholder="Enter title" id="title" name="title" value="<?php echo $article["title"]; ?>" required>
-                    <label for="title"><b>Description</b></label>
-                    <textarea placeholder="Description" id="description" name="description"><?php echo $article["description"]; ?></textarea>
-                    <label for="image"><b>Image</b></label>
-                    <input type="file" name="image" accept=".jpg,.jpeg" >
-                    <button type="submit">Save</button>
-                </form>
-            <?php 
-            }
-        ?> 
-       
+        <form name="createForm" method="post" action="../../actions/create_action.php" enctype="multipart/form-data">
+            <label for="title"><b>Title</b></label>
+            <input type="text" placeholder="Enter title" id="title" name="title" required>
+            <label for="title"><b>Description</b></label>
+            <textarea placeholder="Description" id="description" name="description"></textarea>
+            <label for="image"><b>Image</b></label>
+            <input type="file" name="image" required accept=".jpg,.jpeg" >
+            <button type="submit">Save</button>
+        </form>
     </div>
 
 </body>
